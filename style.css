@@ -175,7 +175,7 @@ a#billing7:hover{
 
 #penbrush {
     width: 24px;
-    margin: 0 0 3vw 0;
+    margin: 6vw 0 3vw 0;
 }
 
 .rightflank {
@@ -192,7 +192,7 @@ figure {
 
 figcaption {
     font-size: 10px;
-    width: min-content;
+    width: 100%;
     color: #303030;
 }
 .sidequote {
