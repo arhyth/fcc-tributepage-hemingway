@@ -10,17 +10,16 @@ body {
 }
 
 .leftflank {
-    margin: 80px 0px 30px 0px;
+    margin: 10vh 4vh 2vh 0;
     text-align: justify;
     justify-content: right;
     width: 12vw;
-    padding: 0px 20px 0px 20px;
 }
 
 #iceberg {
     font-family: 'Amiri', serif;
     font-size: 14px;
-    margin: 40px 0 0 0; 
+    margin: 6vh 0 0 0; 
     color: #303030;
 }
 
@@ -31,16 +30,17 @@ p.shoead {
     font-family:Helvetica; 
     background-color:#E7E7E7;
     width: 70%;
-    padding:5px 5px 5px 5px;
+    padding: 3px 3px 3px 0;
     margin: 0 0 0 25%;
 }
 
 a.wikipedia {
-    text-decoration: none !important;
+    text-decoration: none;
     color: #305CBB;
 }
 
-.sideimg {
+#sideimg {
+    margin:5vh 0 0 0;
     width:100%;
 }
 
@@ -59,7 +59,7 @@ a.wikipedia {
 }
 
 #ernest {
-    font-size: 90px;
+    font-size: 8vw;
     position: relative;
     z-index: 2;
     margin:20px;
@@ -77,7 +77,7 @@ a.wikipedia {
 }
 
 .hemingway {
-    font-size: 120px;
+    font-size: 10vw;
     z-index: 3;
     position: relative;
     top: -110px;
@@ -87,7 +87,7 @@ a.wikipedia {
 .billingcontainer {
     position: relative;
     top: -70px;
-    margin: 0 0 300px 0;    
+    margin: 0 0 6vw 0;    
 }
 
 
@@ -96,7 +96,11 @@ a.wikipedia {
     font-size: 18px;
     color: #7A7873;
     width: 75%;
-    margin: 50px auto;
+    margin: 0 auto 4vw;
+}
+
+div.billingcontainer a p {
+    margin: 3vh 0 0 0;
 }
 
 a#billing1 {
@@ -169,6 +173,11 @@ a#billing7:hover{
     color: #A17E37;
 }
 
+#penbrush {
+    width: 24px;
+    margin: 0 0 3vw 0;
+}
+
 .rightflank {
     margin: 150px 0px 20px 1vw;
     justify-content: right;
@@ -196,4 +205,23 @@ figcaption {
 @font-face {
     font-family: 'Reenie Beanie';
     src: local('Reenie Beanie'), local('ReenieBeanie'), url(https://fonts.gstatic.com/s/reeniebeanie/v7/ljpKc6CdXusL1cnGUSamXzxObtw73-qQgbr7Be51v5c.woff2) format('woff2');
+}
+
+@media (max-width:1080px) {
+    .leftflank {
+        display:none;
+    }
+    .rightflank {
+        display:none;
+    }
+    .sheet {
+        width: 80%;
+    }
+    #penbrush{
+        margin: 0 0 3vw 0;
+    }
+}
+
+.testbox {
+    border: 1px solid gainsboro;
 }
